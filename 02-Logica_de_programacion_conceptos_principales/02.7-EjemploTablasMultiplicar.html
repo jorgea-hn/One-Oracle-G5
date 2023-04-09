@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+Tabla de multiplicar
+
+<script>
+    function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");    
+    } 
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    imprimir("while")
+    var multiplicador = 1
+    while(multiplicador<=10){
+        imprimir(5*multiplicador)
+        multiplicador++
+    }
+
+    imprimir("for")
+    for (var multiplicador=1;multiplicador<=10;multiplicador++){
+        imprimir(5*multiplicador)
+    }
+
+</script>

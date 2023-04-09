@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+Media edades de familia
+
+<script>
+    function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");    
+    } 
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var miembros = parseInt(prompt("Ingrese la cantidad de miembros de su familia: "))
+    var contador=1
+    var totalEdades=0
+
+    while(contador<=miembros){
+        
+        var edad = parseInt(prompt("Ingrese la edad del familiar: "))
+        totalEdades = totalEdades+edad
+        contador++
+    }
+    mediaEdades=totalEdades/miembros
+    imprimir("La media de las edaddes es: " + mediaEdades)
+    imprimir("Fin")
+
+
+    // var edadPadre=42
+    // var edadMadre=38
+    // var edadHijo=15
+    // var edadHija = 12
+
+    // var totalidad = edadPadre+edadMadre+edadHijo+edadHija
+    // var mediaEdad = totalidad/4;
+
+    // imprimir("La media de las edades es " + mediaEdad)
+
+</script>
