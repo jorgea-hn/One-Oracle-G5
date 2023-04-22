@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas width="600" height="400"></canvas>
+</body>
+<script>
+    var pizarra = document.querySelector("canvas")
+    var pincel = pizarra.getContext("2d")
+
+
+
+    // cabeza
+    pincel.fillStyle = "darkgreen";
+    pincel.beginPath()
+    pincel.fillRect(0,0,350,300)
+
+
+    pincel.fillStyle="black"
+     //Ojos
+    pincel.beginPath()
+    pincel.fillRect(50,60,90,90)
+   
+    pincel.beginPath()
+    pincel.fillRect(210,60,90,90)
+
+
+    //nariz
+    pincel.beginPath()
+    pincel.fillRect(140,150,70,100)
+
+    //parte de la boca
+    pincel.beginPath()
+    pincel.fillRect(100,190,40,110)
+
+    pincel.beginPath()
+    pincel.fillRect(210,190,40,110)
+
+</script>
+</html>
