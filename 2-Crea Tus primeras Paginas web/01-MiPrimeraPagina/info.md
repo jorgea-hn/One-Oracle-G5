@@ -28,3 +28,24 @@ etiquetas donde van las etiquetas de contenido <body>
 
 Agregando el atributo `style="text-align:center;"` dentro de las etiquetas para poder darle estilo al documento.
 
+
+para referenciar el archivo css externo 
+<link rel="stylesheet" href="style.css">
+donde rel dice que tomaremos una hoja de estilos y  el href es la referencia al archivo.
+
+
+Empezamos a dar estilos llamando la etiqueta y dandole el estilo que queramos de la siguiente manera 
+```
+body{
+    background: #ccc;
+}
+```
+
+Tambien podemos darle estilo a etiquetas especificas hijas
+```
+em strong{
+    color: red;
+}
+```
+de esta manera le dara color rojo solo a las etiquetas strong que sean hijas de la etiqueta em.
+
