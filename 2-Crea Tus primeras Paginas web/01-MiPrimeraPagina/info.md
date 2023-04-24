@@ -22,6 +22,13 @@ Etiqueta donde van las etiquetas informativas <head>
 
 etiquetas donde van las etiquetas de contenido <body>
 
+Unordered list o lista no ordenada <ul>
+Item de lista <li>
+
+
+Para nombrar o mostrar el encabezado de la pagina se guarda dentro de un contenedor div pero en la ultima version esta se actualizo a la etiqueta <header> la cual tiene el mismo funcionamiento que un <div>
+
+
 
 
 ## Comenzando CSS
@@ -48,4 +55,39 @@ em strong{
 }
 ```
 de esta manera le dara color rojo solo a las etiquetas strong que sean hijas de la etiqueta em.
+
+
+Hexadecimal
+rrggbb - red red green green blue blue
+color negro - #000000
+color blanco - #ffffff
+
+RGB
+0-255
+
+
+color
+red - blue - green
+
+
+Para agregar imagenes se utiliza la etiqueta <img>
+
+
+width -> se utiliza para modificar el ancho
+height -> se utiliza para modificar el alto
+
+margin -> se utiliza para el margen externo
+padding -> se utiliza para el margen interno
+
+
+### Equipo Front-end
+* Programador Frontend, responsable del codigo
+
+* Diseñador 
+    * Responsable por UX (user experience), 
+    * Responsable por UI (user interface)
+    Responsable de especificaciones, interfaz amigable y con buen diseño
+* Copywriter (Generador de contenido)
+* SEO (Search Engine Optimization), optimiza la pagina para ser visible en intenet.
+
 
